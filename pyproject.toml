@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fd-py"
+version = "0.1.0"
+description = ""
+authors = ["Wilson Oh <e0773510@u.nus.edu>"]
+readme = "README.md"
+packages = [{include = "fd_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
