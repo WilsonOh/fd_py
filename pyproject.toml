@@ -10,6 +10,8 @@ packages = [{include = "fd_py"}]
 python = "^3.10"
 rich = "^13.0.1"
 
+[tool.poetry.scripts]
+fd_py = 'fd_py.main:main'
 
 [build-system]
 requires = ["poetry-core"]
